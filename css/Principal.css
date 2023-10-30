@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: "spacemono-bold";
-    src: url("./Fuentes/SpaceMono-Bold.ttf");
+    src: url("../Fuentes/SpaceMono-Bold.ttf");
 }
 
 @font-face {
     font-family: "spacemono-bolditalic";
-    src: url("Fuentes/SpaceMono-BoldItalic.ttf");
+    src: url("./Fuentes/SpaceMono-BoldItalic.ttf");
 }
 
 @font-face {
