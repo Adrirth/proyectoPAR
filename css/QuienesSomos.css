@@ -2,22 +2,22 @@
 
 @font-face {
     font-family: "spacemono-bold";
-    src: url("/Fuentes/SpaceMono-Bold.ttf");
+    src: url("../Fuentes/SpaceMono-Bold.ttf");
 }
 
 @font-face {
     font-family: "spacemono-bolditalic";
-    src: url("/Fuentes/SpaceMono-BoldItalic.ttf");
+    src: url("../Fuentes/SpaceMono-BoldItalic.ttf");
 }
 
 @font-face {
     font-family: "spacemono-regular";
-    src: url("/Fuentes/SpaceMono-Regular.ttf");
+    src: url("../Fuentes/SpaceMono-Regular.ttf");
 }
 
 @font-face {
     font-family: "spacemono-italic";
-    src: url("/Fuentes/SpaceMono-Italic.ttf");
+    src: url("../Fuentes/SpaceMono-Italic.ttf");
 }
 
 a:link.enlacePrincipal {
