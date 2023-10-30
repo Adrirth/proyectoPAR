@@ -46,6 +46,7 @@ a:visited {
      "side main main main"
      "footer footer footer footer";
     grid-gap: 0.5rem;
+    border-radius: 8px;
 }
 
 
