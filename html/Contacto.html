@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+
+    <title>Proyecto PAR</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="HTML, CSS, Javascript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Grupo 10 1º ASIR">
+
+    <link rel="icon" href="/img/depositphotos_162389978-stock-illustration-ethernet-network-port-icon.webp">
+    <link rel="stylesheet" href="/css/Contacto.css">
+</head>
+<body>
+
+    <div class="container"> 
+
+        <header id="cabecera">
+            <a href="/index.html"><img src="/img/depositphotos_162389978-stock-illustration-ethernet-network-port-icon.webp" class="logo"></a>
+            <h1 class="titulo">PINGDEVS</h1>
+        </header>
+
+        <aside id="menu">
+            <nav>
+                <dl class="navBar">
+                    <dt><a href="/html/Presentacion.html">PROYECTO LAN</a></dt>
+                    <dt><a href="/html/QuienesSomos.html">QUIÉNES SOMOS</a></dt>
+                </dl>
+            </nav>
+        </aside>
+
+        <main id="principal">
+
+            <h2 class="subtitulo">Contacto</h2>
+
+            <section class="formulario">
+                    <form action="formulario">
+                        <label for="correo">Correo electrónico:</label><br>
+                        <input type="email" pattern="[a-z]{8}[@][gmail][.com]" placeholder="user@dominio.com"><br>
+                        <br>
+                        <label for="nombre">Nombre:</label><br>
+                        <input type="text" pattern="[A-Z][a-z]{15}" placeholder="Escribe aquí tu nombre"><br>
+                        <br>
+                        <label for="mensaje">Mensaje:</label><br>
+                        <textarea name="mensaje" id="mensaje" cols="50" rows="6" placeholder="Escribe aquí tu mensaje"></textarea><br>
+                        <br>
+                        <input type="submit" value="Enviar" class="boton">
+                        <input type="reset" value="Limpiar" class="boton">
+                    </form>
+            </section>
+
+        </main>
+
+        <footer>
+            <small>&copy; Propiedad de PingDevs</small><br>
+            <small><i><a href="https://site.educa.madrid.org/ies.villablanca.madrid/" target="_blank">I.E.S. Villablanca</a></i></small>
+        </footer>
+    </div>
+
+
+</body>
+</html>

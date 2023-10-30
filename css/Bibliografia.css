@@ -1,0 +1,173 @@
+
+
+@font-face {
+    font-family: "spacemono-bold";
+    src: url("/Fuentes/SpaceMono-Bold.ttf");
+}
+
+@font-face {
+    font-family: "spacemono-bolditalic";
+    src: url("/Fuentes/SpaceMono-BoldItalic.ttf");
+}
+
+@font-face {
+    font-family: "spacemono-regular";
+    src: url("/Fuentes/SpaceMono-Regular.ttf");
+}
+
+@font-face {
+    font-family: "spacemono-italic";
+    src: url("/Fuentes/SpaceMono-Italic.ttf");
+}
+
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*------Ajustes del grid--------*/
+
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 1 1.2fr 0.1fr;
+    grid-template-areas:
+     "nav nav nav nav"
+     "side main main main"
+     "side main main main"
+     "footer footer footer footer";
+    grid-gap: 0.5rem;
+}
+
+
+/*-----Ajustes cabecera---------*/
+
+#cabecera {
+    background-color: lightgrey;
+    grid-area: nav;
+    font-family: "spacemono-bold";
+    text-align: center;
+}
+
+.logo {
+    height: 120px;
+    width: 120px;
+    float: left;
+}
+
+/*-----Ajustes barra menu--------*/
+
+#menu {
+    background-color: lightslategray;
+    font-family: "spacemono-bold";
+    grid-area: side;
+    padding: 10px;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+/*-----Ajustes principal---------*/
+
+#principal {
+    background-color: lightblue;
+    grid-area: main;
+    padding: 20px;
+}
+
+.subtitulo {
+    font-family: "spacemono-regular";
+}
+
+.presentacion {
+    font-family: "spacemono-regular";
+}
+
+#lista dt dl {
+    float: left;
+    margin: 20px;
+}
+
+.enlaces {
+    font-family: "spacemono-regular";
+    background-color: white;
+    border-radius: 15px;
+    width: 700px;
+}
+
+.foto {
+    border-radius: 15px;
+    height: 400px;
+    width: 700px;
+}
+
+/*-----Ajutes footer-------------*/
+
+footer {
+    background-color: lightcoral;
+    font-family: "spacemono-bold";
+    grid-area: footer;
+    padding: 20px;
+    text-align: right;
+
+}
+
+@media only screen and (max-width: 550px) {
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1fr;
+        grid-template-areas: 
+        "nav"
+        "side"
+        "main"
+        "footer";
+    }
+
+    #menu dt {
+        display: block;
+        float: left;
+        margin: 8px;
+    }
+
+    dl {
+        list-style: none;
+    }
+
+    a:link {
+        text-decoration: none;
+    }
+    
+    a:hover {
+        background-color: white;
+        color: black;
+    }
+    
+    a.visited {
+        text-decoration: none;
+    }
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+}
+
+a.visited {
+    text-decoration: none;
+}
+
+/*------Ajustes de cuerpo-------*/
+
